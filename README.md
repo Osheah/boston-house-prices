@@ -79,9 +79,10 @@ The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. 
 * .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
 * License - GNU GENERAL PUBLIC LICENSE Version 3
 * README.md - this readme
-* assignment.pdf - a pdf of the assignment
+* project.pdf - a pdf of the assignment
 * research - a folder containing pdf's 
 * img - images as I cant get firefox to link to external images 
+* data - the dataset
 * **boston-house-prices.ipynb** - The main body of the assignment
 
 
@@ -146,7 +147,7 @@ git push
 Jupyter notebooks have the extension ipynb. When you find a notebook that you want to look at or edit, don't click on it; Instead right click and save it to your local pc. Then open jupyter notebook via the cmder commandline and navigate to the notebook. NB; **before opening the notebook make sure the notebook is saved in a sub directory of the cmder path**. Jupyter notebooks cannot access any files that are not within the path when the kernal is called. 
 
 ## Issues
-1. The ratings for the distance and duration band have to be tweeked more to better match the expected shape
+
   
 
 
