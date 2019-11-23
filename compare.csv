@@ -1,0 +1,92 @@
+,Regressor,results
+0,"LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)","[-0.01344903 -0.01681693 -0.02759596 -0.02324719 -0.02977966 -0.02603825
+ -0.02339919 -0.23571546 -0.08432964 -0.05918824]"
+1,"Lasso(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=1000,
+      normalize=False, positive=False, precompute=False, random_state=None,
+      selection='cyclic', tol=0.0001, warm_start=False)","[-0.07505716 -0.0502698  -0.05632052 -0.15136638 -0.15435071 -0.23678689
+ -0.03774598 -0.44009819 -0.34669417 -0.07758313]"
+2,"ElasticNet(alpha=1.0, copy_X=True, fit_intercept=True, l1_ratio=0.5,
+           max_iter=1000, normalize=False, positive=False, precompute=False,
+           random_state=None, selection='cyclic', tol=0.0001, warm_start=False)","[-0.07505716 -0.0502698  -0.05632052 -0.15136638 -0.15435071 -0.23678689
+ -0.03774598 -0.44009819 -0.34669417 -0.07758313]"
+3,"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=None, n_neighbors=5, p=2,
+                    weights='uniform')","[-0.03144308 -0.02135412 -0.03080619 -0.06827131 -0.02928145 -0.04863922
+ -0.02795236 -0.13917592 -0.15313097 -0.04553153]"
+4,"DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
+                      max_leaf_nodes=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      presort=False, random_state=None, splitter='best')","[-0.04314767 -0.01194724 -0.06280599 -0.05104551 -0.03045564 -0.0190718
+ -0.02024541 -0.18090748 -0.17149419 -0.05608444]"
+5,"SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.1,
+    gamma='auto_deprecated', kernel='rbf', max_iter=-1, shrinking=True,
+    tol=0.001, verbose=False)","[-0.02441151 -0.01170918 -0.02644896 -0.0227235  -0.02240962 -0.01918723
+ -0.0136139  -0.13507715 -0.11429932 -0.03789494]"
+6,"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)","[-0.03255132 -0.0088195  -0.01195887 -0.04414652 -0.02709067 -0.03685727
+ -0.02250549 -0.11224618 -0.10800649 -0.04468063]"
+7,"GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+                          learning_rate=0.1, loss='ls', max_depth=3,
+                          max_features=None, max_leaf_nodes=None,
+                          min_impurity_decrease=0.0, min_impurity_split=None,
+                          min_samples_leaf=1, min_samples_split=2,
+                          min_weight_fraction_leaf=0.0, n_estimators=100,
+                          n_iter_no_change=None, presort='auto',
+                          random_state=None, subsample=1.0, tol=0.0001,
+                          validation_fraction=0.1, verbose=0, warm_start=False)","[-0.02915229 -0.00977612 -0.03182914 -0.02529298 -0.02319863 -0.01525136
+ -0.01557279 -0.14786508 -0.07902451 -0.03571831]"
+8,"RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+                      max_features='auto', max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, n_estimators='warn',
+                      n_jobs=None, oob_score=False, random_state=None,
+                      verbose=0, warm_start=False)","[-0.0326144  -0.00926903 -0.02097353 -0.03316486 -0.02387248 -0.01723934
+ -0.0129612  -0.12453131 -0.1095101  -0.03990644]"
+9,"ExtraTreesRegressor(bootstrap=False, criterion='mse', max_depth=None,
+                    max_features='auto', max_leaf_nodes=None,
+                    min_impurity_decrease=0.0, min_impurity_split=None,
+                    min_samples_leaf=1, min_samples_split=2,
+                    min_weight_fraction_leaf=0.0, n_estimators='warn',
+                    n_jobs=None, oob_score=False, random_state=None, verbose=0,
+                    warm_start=False)","[-0.0392664  -0.00799199 -0.01684088 -0.03725643 -0.02171386 -0.01818912
+ -0.0159557  -0.14248453 -0.08787745 -0.04808003]"
+10,"BaggingRegressor(base_estimator=None, bootstrap=True, bootstrap_features=False,
+                 max_features=1.0, max_samples=1.0, n_estimators=10,
+                 n_jobs=None, oob_score=False, random_state=None, verbose=0,
+                 warm_start=False)","[-0.04233144 -0.00743158 -0.02742048 -0.02990907 -0.02201306 -0.02032274
+ -0.0151364  -0.16369006 -0.10643545 -0.03797182]"
+11,"HistGradientBoostingRegressor(l2_regularization=0.0, learning_rate=0.1,
+                              loss='least_squares', max_bins=256,
+                              max_depth=None, max_iter=100, max_leaf_nodes=31,
+                              min_samples_leaf=20, n_iter_no_change=None,
+                              random_state=None, scoring=None, tol=1e-07,
+                              validation_fraction=0.1, verbose=0)","[-0.03809639 -0.01062996 -0.01274529 -0.03097463 -0.02897559 -0.01171592
+ -0.01345037 -0.12089015 -0.0801591  -0.04340389]"
+12,"HuberRegressor(alpha=0.0001, epsilon=1.35, fit_intercept=True, max_iter=100,
+               tol=1e-05, warm_start=False)","[-0.01073451 -0.01193494 -0.01949817 -0.02247507 -0.02621705 -0.01743747
+ -0.01636894 -0.25124783 -0.08511271 -0.0525969 ]"
+13,"PassiveAggressiveRegressor(C=1.0, average=False, early_stopping=False,
+                           epsilon=0.1, fit_intercept=True,
+                           loss='epsilon_insensitive', max_iter=1000,
+                           n_iter_no_change=5, random_state=None, shuffle=True,
+                           tol=0.001, validation_fraction=0.1, verbose=0,
+                           warm_start=False)","[-0.01347389 -0.08260711 -0.02708576 -0.04031343 -0.02686941 -0.1169727
+ -0.03392562 -0.24584613 -0.08180348 -0.08811464]"
+14,"RANSACRegressor(base_estimator=None, is_data_valid=None, is_model_valid=None,
+                loss='absolute_loss', max_skips=inf, max_trials=100,
+                min_samples=None, random_state=None, residual_threshold=None,
+                stop_n_inliers=inf, stop_probability=0.99, stop_score=inf)","[-0.01763555 -0.00802252 -0.01253323 -0.03614693 -0.01681652 -0.00857852
+ -0.02185796 -0.33341336 -0.41088376 -0.05816108]"
+15,"SGDRegressor(alpha=0.0001, average=False, early_stopping=False, epsilon=0.1,
+             eta0=0.01, fit_intercept=True, l1_ratio=0.15,
+             learning_rate='invscaling', loss='squared_loss', max_iter=1000,
+             n_iter_no_change=5, penalty='l2', power_t=0.25, random_state=None,
+             shuffle=True, tol=0.001, validation_fraction=0.1, verbose=0,
+             warm_start=False)","[-0.01923489 -0.03258742 -0.0589266  -0.06028955 -0.0682338  -0.12328682
+ -0.07264699 -0.2876336  -0.19701378 -0.06067079]"
+16,"TheilSenRegressor(copy_X=True, fit_intercept=True, max_iter=300,
+                  max_subpopulation=10000, n_jobs=None, n_subsamples=None,
+                  random_state=None, tol=0.001, verbose=False)","[-0.00996525 -0.0110768  -0.02439467 -0.0235878  -0.02963103 -0.01938146
+ -0.01650506 -0.2466656  -0.15742021 -0.05177868]"
