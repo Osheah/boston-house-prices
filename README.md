@@ -1,13 +1,10 @@
 # Boston house prices
 GMIT Data Analytics Machine Learning and Statistics: Assessment 2019 
 
-**Due the 29th of November 2019**
-
-
+**Due the 29th of November 2019 extended to the 13th of December 2019** 
 
 
 # Programming for Data Analysis Assignment 2019 - Investigate the Boston House Price Dataset
-
 
 
 ## Requirments of the assignment
@@ -28,7 +25,7 @@ This assesment concerns the well-known Boston House Prices dataset and the pytho
    2. Upload repo url to the assignment section on student page. 
    3. Commit history of at least 10 with a decent body of work in each commit
    4. Meaningful commit messages
-   5. Assignment deadline **29/11/2019** at midnight
+   5. Assignment deadline **29/11/2019 extended to 13/12/2019** at midnight
    6. README file containing an explanation of what is in the repository and how to run jupyter notebook and a summary of your work. 
    7. Jupyter notebook with the project
          * Explain the dataset
@@ -39,17 +36,12 @@ This assesment concerns the well-known Boston House Prices dataset and the pytho
    8. gitignore file
 
 
-
-## Getting Started
-
-First get the required software, as I have windows 10 on my pc I'm only adding links to this version of various software. 
-
 ### Prerequisites
 
 This project requires
 
    * Jupyter notebook
-   * Python via Anaconda and other python packages like numpy, pandas, keras, matplotlib, sklearn.... add more
+   * Python via Anaconda and other python packages like numpy, pandas, keras, matplotlib, sklearn. Some do not come with the basic anaconda package and will have to be installed manually via the Anaconda navigator or conda install commands. 
    * cmder 
    * Github account
     
@@ -63,12 +55,10 @@ Anaconda has python, ipython, jupyter notebook and a large number of common pyth
 
 ### Installing
 
-Install the above packages. Any problems google it. Update any packages; From cmder type... 
+Install Anaconda. Keras will have to be installed separately as it does not come by default. This can be done via Anaconda Navigator or by the command 
 
 ```
-conda update –all 
-git - version
-
+cconda install keras
 ```
 
 ## Repository structure
@@ -80,10 +70,7 @@ The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. 
 * License - GNU GENERAL PUBLIC LICENSE Version 3
 * README.md - this readme
 * project.pdf - a pdf of the assignment
-* research - a folder containing pdf's 
-* img - images as I cant get firefox to link to external images 
-* data - the dataset
-* **boston-house-prices.ipynb** - The main body of the assignment
+* **main** - The main body of the assignment. This is a jupyter notebook document which can be downloaded via github by cloning the repo or by saving the raw file as a ipynb file. 
 
 
 ## Jupyter 
