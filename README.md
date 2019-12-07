@@ -30,7 +30,7 @@ This assesment concerns the well-known Boston House Prices dataset and the pytho
    7. Jupyter notebook with the project
          * Explain the dataset
          * Have well conceived, interesting and well researched project
-         * Assignment covers jupyter notebook so include fancy stuff like images, links, code and plots
+         * Assignment covers jupyter notebook so include fancy stuff like images, links, code and plots latex.
          * Any python package that you fancy. 
          * written in markdown
    8. gitignore file
@@ -41,7 +41,11 @@ This assesment concerns the well-known Boston House Prices dataset and the pytho
 This project requires
 
    * Jupyter notebook
-   * Python via Anaconda and other python packages like numpy, pandas, keras, matplotlib, sklearn. Some do not come with the basic anaconda package and will have to be installed manually via the Anaconda navigator or conda install commands. 
+   * Python via Anaconda and other python packages like numpy, pandas, keras, matplotlib, sklearn. Some do not come with the basic anaconda package and will have to be installed manually via the Anaconda navigator or conda install commands. The list of anaconda default packages can be found here [Anaconda packages](https://docs.anaconda.com/anaconda/packages/py3.6_win-64/). Note that tabulate, keras and plotly.express are not part of the default anaconda packages and will have to be installed via the anaconda navigator or by the command 
+```
+conda install PACKAGENAME
+```
+
    * cmder 
    * Github account
     
@@ -53,24 +57,16 @@ Anaconda has python, ipython, jupyter notebook and a large number of common pyth
    4. Get github account - set up github account and create a repo [Github](https://github.com/)
 
 
-### Installing
-
-Install Anaconda. Keras will have to be installed separately as it does not come by default. This can be done via Anaconda Navigator or by the command 
-
-```
-cconda install keras
-```
-
 ## Repository structure
 
 The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. Python files are also ignored. A standard gitignore file was used. It can be found here [Python gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) 
 
-
+The directory structure is as follows
 * .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
 * License - GNU GENERAL PUBLIC LICENSE Version 3
 * README.md - this readme
 * project.pdf - a pdf of the assignment
-* **main** - The main body of the assignment. This is a jupyter notebook document which can be downloaded via github by cloning the repo or by saving the raw file as a ipynb file. 
+* **main** - The main body of the assignment. This is a jupyter notebook document which can be downloaded via github by cloning the repo or by saving the raw file as a ipynb file. I recommend using nbviewer and pasting the github repo link into the location box [nbviewer](https://nbviewer.jupyter.org/)
 
 
 ## Jupyter 
@@ -132,11 +128,6 @@ git push
 ### opening a jupyter notebook
 
 Jupyter notebooks have the extension ipynb. When you find a notebook that you want to look at or edit, don't click on it; Instead right click and save it to your local pc. Then open jupyter notebook via the cmder commandline and navigate to the notebook. NB; **before opening the notebook make sure the notebook is saved in a sub directory of the cmder path**. Jupyter notebooks cannot access any files that are not within the path when the kernal is called. 
-
-## Issues
-
-  
-
 
 ## Authors
 
