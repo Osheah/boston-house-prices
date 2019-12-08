@@ -7,6 +7,31 @@ GMIT Data Analytics Machine Learning and Statistics: Assessment 2019
 # Programming for Data Analysis Assignment 2019 - Investigate the Boston House Price Dataset
 
 
+## Summary of the assignment
+
+This assignment analysed the boston housing dataset. This consisted of 14 attributes and 506 observations. 13 of these attributes was used to predict the 14th one, price. 
+The assignment had 3 main sections. Firstly the data and its features were described. Then an exploritory analysis of the data was conducted. This showed that the data was skewed over many attributes and contained outliers over both the predictor attributes and the target attribute. The analysis used corrected data which had 490 observations. 
+
+The second section looked to see if the attribute CHAS was a significant factor in predicting house price. The test looked to see if properties bordering the Charles river had significantly differences in their median house prices compared to those not bordering the river. Students t test could not be used here due to failure to pass a number of t test assumptions. A non parametric test was used which showed that there were significant differences in house prices.
+
+The third section looked to use neural networks to develop a pricing model. The data was analysied for suitable factors to include in the model. Several attributes were droped to produce a simpler model. After transformations and standardizations the data was put through several models. The inital models used regression and the later models used neural networks. In this case the best mean squared error was found with the Gradient boosting regressor model (model5) however its likley that further tweeking of the neural network model would improve its mse score. Whitening the data produced the worst mse score.  
+
+#### issues
+Tweeking the Neural network model seemed very haphazard, how many epochs, what transformations to use, how many layers, number of nodes, type of activators and optimizers... If time allows a more methodical testing of paramaters might be considered.
+
+
+## Repository structure
+
+The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. Python files are also ignored. A standard gitignore file was used. It can be found here [Python gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) 
+
+The directory structure is as follows
+* .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
+* License - GNU GENERAL PUBLIC LICENSE Version 3
+* README.md - this readme
+* project.pdf - a pdf of the assignment
+* **main.ipynb** - The main body of the assignment. This is a jupyter notebook document which can be downloaded via github by cloning the repo or by saving the raw file as a ipynb file or viewing on nbviewer. I recommend using nbviewer and pasting the github repo link into the location box [nbviewer](https://nbviewer.jupyter.org/)
+
+
 ## Requirments of the assignment
 
 This assesment concerns the well-known Boston House Prices dataset and the python packages scipy, keras and jupyter. The requirments of the assignment are as follows
@@ -45,7 +70,6 @@ This project requires
 ```
 conda install PACKAGENAME
 ```
-
    * cmder 
    * Github account
     
@@ -57,21 +81,9 @@ Anaconda has python, ipython, jupyter notebook and a large number of common pyth
    4. Get github account - set up github account and create a repo [Github](https://github.com/)
 
 
-## Repository structure
-
-The gitignore file ignores the .git and .ipynb_checkpoints in the local folder. Python files are also ignored. A standard gitignore file was used. It can be found here [Python gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore) 
-
-The directory structure is as follows
-* .gitignore - gitignore file taken from [gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
-* License - GNU GENERAL PUBLIC LICENSE Version 3
-* README.md - this readme
-* project.pdf - a pdf of the assignment
-* **main** - The main body of the assignment. This is a jupyter notebook document which can be downloaded via github by cloning the repo or by saving the raw file as a ipynb file. I recommend using nbviewer and pasting the github repo link into the location box [nbviewer](https://nbviewer.jupyter.org/)
-
-
 ## Jupyter 
 
-The main body of work is in the jupyter notebook ***boston-house-prices.ipynb***. 
+The main body of work is in the jupyter notebook ***main.ipynb***. 
 
 
 ### Running a Jupyter notebook
@@ -128,6 +140,7 @@ git push
 ### opening a jupyter notebook
 
 Jupyter notebooks have the extension ipynb. When you find a notebook that you want to look at or edit, don't click on it; Instead right click and save it to your local pc. Then open jupyter notebook via the cmder commandline and navigate to the notebook. NB; **before opening the notebook make sure the notebook is saved in a sub directory of the cmder path**. Jupyter notebooks cannot access any files that are not within the path when the kernal is called. 
+
 
 ## Authors
 
